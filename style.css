@@ -541,9 +541,6 @@ header .navbar a:hover {
 }
 
 @media (max-width: 991px) {
-  html {
-    font-size: 50%;
-  }
   header {
     padding: 2rem 4%;
   }
@@ -553,10 +550,6 @@ header .navbar a:hover {
 }
 
 @media (max-width: 768px) {
-  html {
-    font-size: 45%;
-  }
-
   #menu-bar {
     display: block;
   }
@@ -567,7 +560,7 @@ header .navbar a:hover {
     left: 0;
     right: 0;
     background: var(--blue);
-    padding: 2rem 0;
+    padding: 2rem;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
 
@@ -608,10 +601,6 @@ header .navbar a:hover {
     width: auto;
   }
 
-  .about .row .image {
-    display: flex;
-  }
-
   .servis .box-container .box img {
     height: 25%;
     padding-left: 19rem;
@@ -629,8 +618,9 @@ header .navbar a:hover {
   }
 }
 
-@media (max-width: 450px) {
-  html {
-    font-size: 40%;
+@media (max-width: 477px) {
+  .header {
+    margin-left: 0;
+    padding: 1rem 4%;
   }
 }
