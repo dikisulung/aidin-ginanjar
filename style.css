@@ -618,4 +618,9 @@ header .navbar a:hover {
   html {
     font-size: 35%;
   }
+
+  .servis .box-container .box img {
+    height: 10%;
+    padding-right: 4rem;
+  }
 }
