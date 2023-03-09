@@ -315,7 +315,7 @@ header .navbar a:hover {
 .servis .box-container .box {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 2fr));
-  margin: 3rem;
+  margin: 1rem;
   overflow: hidden;
   position: relative;
   border-radius: 0.5rem;
